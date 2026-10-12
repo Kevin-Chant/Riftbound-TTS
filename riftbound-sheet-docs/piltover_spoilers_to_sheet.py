@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import html
 import itertools
 import json
 import re
@@ -33,6 +34,15 @@ FALLBACK_CARD_IDS = {
 }
 
 CARD_OVERRIDES = {
+    # RAD name audit, 2026-10-12. RAD-011 is user-confirmed; the others
+    # match Riot's English card-gallery names/subtitles and printed art.
+    "RAD-011": {"card_name": "Incorrigible Construct"},
+    "RAD-109": {"card_name": "Evelynn, In Control"},
+    "RAD-109a": {"card_name": "Evelynn, In Control"},
+    "RAD-114": {"card_name": "Riven, Deserter"},
+    "RAD-114a": {"card_name": "Riven, Deserter"},
+    "RAD-163": {"card_name": "Hunters' Circle"},
+    "VEN-T01": {"equip_might": "0"},
     "VEN-188": {"card_name": "Mel, Defiant Soul", "tts-type": "Legend"},
     "VEN-189": {"card_name": "Akali, Rogue Assassin", "tts-type": "Legend"},
     "VEN-190": {"card_name": "Renekton, Butcher of the Sands", "tts-type": "Legend"},
@@ -446,8 +456,8 @@ def is_supported_card_id(set_code, card_id):
             rf"{set_code}-T\d{{2}}",
         ),
         "RAD": (
-            rf"{set_code}-\d{{3}}(?:a|s)?",
-            rf"{set_code}-R\d{{2}}a",
+            rf"{set_code}-\d{{3}}(?:a|s|as)?",
+            rf"{set_code}-R\d{{2}}a?",
             rf"{set_code}-T\d{{2}}",
         ),
         "VEN": (
@@ -699,6 +709,9 @@ def page_count(decoded_text):
 
 
 def extract_cards_from_text(decoded_text, set_code):
+    structured = extract_structured_cards(decoded_text, set_code)
+    if structured:
+        return structured
     entries = group_entries(decoded_text)
     entry_map = {key: payload for key, payload in entries}
     set_name = set_code_to_set_name(set_code)
@@ -758,6 +771,93 @@ def extract_cards_from_text(decoded_text, set_code):
     return rows
 
 
+def extract_structured_cards(decoded_text, set_code):
+    rows = []
+    decoder = json.JSONDecoder()
+    for match in re.finditer(r'"variants":(?=\[)', decoded_text):
+        variants, _ = decoder.raw_decode(decoded_text[match.end():])
+        for variant in variants:
+            card_id = normalize_card_id(variant.get("variantNumber", ""))
+            if not is_supported_card_id(set_code, card_id):
+                continue
+            card = variant["card"]
+            raw_type = card.get("type") or ""
+            tts_type = "Champion" if card.get("super") == "Champion" and raw_type != "Legend" else raw_type
+            if tts_type == "Token Card":
+                tts_type = "Token"
+            image_url = variant.get("imageUrl") or ""
+            def stat(key):
+                value = card.get(key)
+                return "" if value is None else str(value)
+            rows.append({
+                "card-id": card_id,
+                "card_name": normalize_card_text(card.get("name")),
+                "effect": normalize_card_text(card.get("description")),
+                "set": set_code_to_set_name(set_code),
+                "image_url": image_url,
+                "tts-type": tts_type,
+                "rarity": variant.get("rarity") or "Unknown",
+                "domain": "|".join(color["name"] for color in card.get("colors", [])),
+                "might": stat("might") if raw_type == "Unit" else "",
+                "cost": stat("energy") if raw_type in {"Unit", "Spell", "Gear"} else "",
+                "power": stat("power") if card.get("power") else "",
+                "equip_might": stat("mightBonus") if card.get("attachText") or card.get("mightBonus") else "",
+                "flavor": normalize_card_text(variant.get("flavorText")),
+                "artist": normalize_artist(variant.get("artist")),
+                "image_source": parse_image_source(image_url),
+            })
+    return rows
+
+
+def extract_riftbound_org_cards(set_code, existing_rows):
+    if set_code != "RAD":
+        return []
+    url = "https://riftbound.org/cards/rad-radiance"
+    rows = []
+    while url:
+        source = http_get(url, headers={"User-Agent": "Mozilla/5.0"})
+        match = re.search(r'<script data-page="app"[^>]*>(.*?)</script>', source, re.S)
+        if not match:
+            raise ValueError("Riftbound.org card payload missing")
+        catalog = json.loads(match.group(1))["props"]["cards"]
+        for card in catalog["data"]:
+            card_id = normalize_card_id(card["code"].split("/", 1)[0])
+            if card_id in existing_rows or not is_supported_card_id(set_code, card_id):
+                continue
+            raw_type = card["type"]
+            name = card["name"]
+            if card.get("subtitle"):
+                name += ", " + card["subtitle"]
+            base = existing_rows.get(re.sub(r"(?:as|a|s)$", "", card_id))
+            if base:
+                name = base["card_name"]
+            rules = re.sub(r'<br\s*/?>|</p>', "\n", card.get("rules") or "", flags=re.I)
+            rules = re.sub(r'<img\b[^>]*alt="([^"]*)"[^>]*>', r'[\1]', rules)
+            rules = normalize_card_text(html.unescape(re.sub(r"<[^>]+>", "", rules)))
+            def stat(key):
+                value = card.get(key)
+                return "" if value is None else str(value)
+            rows.append({
+                "card-id": card_id,
+                "card_name": normalize_card_text(name),
+                "effect": rules,
+                "set": set_code_to_set_name(set_code),
+                "image_url": urllib.parse.urljoin(url, card["image"]["original"]),
+                "tts-type": "Champion" if card.get("supertype") == "Champion" and raw_type != "Legend" else raw_type,
+                "rarity": "Unknown" if card.get("rarity") in {None, "Preview"} else card["rarity"],
+                "domain": "|".join(domain["name"] for domain in card.get("domains", [])),
+                "might": stat("might") if raw_type == "Unit" else "",
+                "cost": stat("energy") if raw_type in {"Unit", "Gear", "Spell"} else "",
+                "power": stat("power") if card.get("power") else "",
+                "equip_might": stat("might_bonus"),
+                "flavor": "",
+                "artist": normalize_artist(card.get("artist")),
+                "image_source": "temporary" if card.get("preview") else "official",
+            })
+        url = catalog["links"].get("next")
+    return rows
+
+
 def extract_cards(set_code):
     first_decoded = decode_piltover_html(fetch_piltover_html(set_code, page=1))
     rows = extract_cards_from_text(first_decoded, set_code)
@@ -767,6 +867,7 @@ def extract_cards(set_code):
         rows.extend(extract_cards_from_text(decoded_text, set_code))
     rows.extend(extract_cards_from_text(fetch_piltover_new_text(), set_code))
     rows.extend(extract_riftstorm_cards(set_code))
+    rows.extend(extract_riftbound_org_cards(set_code, {row["card-id"]: row for row in rows}))
     deduped = {}
     for row in rows:
         existing = deduped.get(row["card-id"])

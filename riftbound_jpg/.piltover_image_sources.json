@@ -1,7 +1,7 @@
 {
   "RAD-138": {
-    "image_url": "https://cdn.piltoverarchive.com/temporary/1783856432174-i1ha017f3qp.jpeg",
-    "image_source": "temporary"
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-138.webp",
+    "image_source": "official"
   },
   "VEN-002": {
     "image_url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b222082d5d38630c4d2542ed24c0442881e3de18-744x1039.png?accountingTag=RB",
@@ -881,6 +881,886 @@
   },
   "UNL-234s": {
     "image_url": "https://cdn.piltoverarchive.com/cards/UNL-234*.webp",
+    "image_source": "official"
+  },
+  "RAD-001": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-001.webp",
+    "image_source": "official"
+  },
+  "RAD-002": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-002.webp",
+    "image_source": "official"
+  },
+  "RAD-003": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-003.webp",
+    "image_source": "official"
+  },
+  "RAD-004": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-004.webp",
+    "image_source": "official"
+  },
+  "RAD-012": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-012.webp",
+    "image_source": "official"
+  },
+  "RAD-013": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-013.webp",
+    "image_source": "official"
+  },
+  "RAD-014": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-014.webp",
+    "image_source": "official"
+  },
+  "RAD-015": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-015.webp",
+    "image_source": "official"
+  },
+  "RAD-016": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-016.webp",
+    "image_source": "official"
+  },
+  "RAD-017": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-017.webp",
+    "image_source": "official"
+  },
+  "RAD-023": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-023.webp",
+    "image_source": "official"
+  },
+  "RAD-023a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-023a.webp",
+    "image_source": "official"
+  },
+  "RAD-024": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-024.webp",
+    "image_source": "official"
+  },
+  "RAD-025": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-025.webp",
+    "image_source": "official"
+  },
+  "RAD-026": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-026.webp",
+    "image_source": "official"
+  },
+  "RAD-027": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-027.webp",
+    "image_source": "official"
+  },
+  "RAD-033": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-033.webp",
+    "image_source": "official"
+  },
+  "RAD-034": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-034.webp",
+    "image_source": "official"
+  },
+  "RAD-035": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-035.webp",
+    "image_source": "official"
+  },
+  "RAD-036": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-036.webp",
+    "image_source": "official"
+  },
+  "RAD-037": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-037.webp",
+    "image_source": "official"
+  },
+  "RAD-038": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-038.webp",
+    "image_source": "official"
+  },
+  "RAD-045": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-045.webp",
+    "image_source": "official"
+  },
+  "RAD-045a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-045a.webp",
+    "image_source": "official"
+  },
+  "RAD-046": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-046.webp",
+    "image_source": "official"
+  },
+  "RAD-047": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-047.webp",
+    "image_source": "official"
+  },
+  "RAD-048": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-048.webp",
+    "image_source": "official"
+  },
+  "RAD-055": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-055.webp",
+    "image_source": "official"
+  },
+  "RAD-056": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-056.webp",
+    "image_source": "official"
+  },
+  "RAD-057": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-057.webp",
+    "image_source": "official"
+  },
+  "RAD-058": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-058.webp",
+    "image_source": "official"
+  },
+  "RAD-059": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-059.webp",
+    "image_source": "official"
+  },
+  "RAD-061": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-061.webp",
+    "image_source": "official"
+  },
+  "RAD-061a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-061a.webp",
+    "image_source": "official"
+  },
+  "RAD-063": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-063.webp",
+    "image_source": "official"
+  },
+  "RAD-067": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-067.webp",
+    "image_source": "official"
+  },
+  "RAD-068": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-068.webp",
+    "image_source": "official"
+  },
+  "RAD-068a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-068a.webp",
+    "image_source": "official"
+  },
+  "RAD-069": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-069.webp",
+    "image_source": "official"
+  },
+  "RAD-070": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-070.webp",
+    "image_source": "official"
+  },
+  "RAD-071": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-071.webp",
+    "image_source": "official"
+  },
+  "RAD-072": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-072.webp",
+    "image_source": "official"
+  },
+  "RAD-073": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-073.webp",
+    "image_source": "official"
+  },
+  "RAD-079": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-079.webp",
+    "image_source": "official"
+  },
+  "RAD-081": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-081.webp",
+    "image_source": "official"
+  },
+  "RAD-082": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-082.webp",
+    "image_source": "official"
+  },
+  "RAD-083": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-083.webp",
+    "image_source": "official"
+  },
+  "RAD-084": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-084.webp",
+    "image_source": "official"
+  },
+  "RAD-085": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-085.webp",
+    "image_source": "official"
+  },
+  "RAD-086": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-086.webp",
+    "image_source": "official"
+  },
+  "RAD-086a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-086a.webp",
+    "image_source": "official"
+  },
+  "RAD-087": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-087.webp",
+    "image_source": "official"
+  },
+  "RAD-090": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-090.webp",
+    "image_source": "official"
+  },
+  "RAD-090a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-090a.webp",
+    "image_source": "official"
+  },
+  "RAD-091": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-091.webp",
+    "image_source": "official"
+  },
+  "RAD-091a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-091a.webp",
+    "image_source": "official"
+  },
+  "RAD-093": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-093.webp",
+    "image_source": "official"
+  },
+  "RAD-095": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-095.webp",
+    "image_source": "official"
+  },
+  "RAD-096": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-096.webp",
+    "image_source": "official"
+  },
+  "RAD-097": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-097.webp",
+    "image_source": "official"
+  },
+  "RAD-098": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-098.webp",
+    "image_source": "official"
+  },
+  "RAD-105": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-105.webp",
+    "image_source": "official"
+  },
+  "RAD-106": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-106.webp",
+    "image_source": "official"
+  },
+  "RAD-107": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-107.webp",
+    "image_source": "official"
+  },
+  "RAD-109": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-109.webp",
+    "image_source": "official"
+  },
+  "RAD-109a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-109a.webp",
+    "image_source": "official"
+  },
+  "RAD-110": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-110.webp",
+    "image_source": "official"
+  },
+  "RAD-115": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-115.webp",
+    "image_source": "official"
+  },
+  "RAD-116": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-116.webp",
+    "image_source": "official"
+  },
+  "RAD-117": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-117.webp",
+    "image_source": "official"
+  },
+  "RAD-118": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-118.webp",
+    "image_source": "official"
+  },
+  "RAD-119": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-119.webp",
+    "image_source": "official"
+  },
+  "RAD-125": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-125.webp",
+    "image_source": "official"
+  },
+  "RAD-126": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-126.webp",
+    "image_source": "official"
+  },
+  "RAD-127": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-127.webp",
+    "image_source": "official"
+  },
+  "RAD-128": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-128.webp",
+    "image_source": "official"
+  },
+  "RAD-129": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-129.webp",
+    "image_source": "official"
+  },
+  "RAD-130": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-130.webp",
+    "image_source": "official"
+  },
+  "RAD-132": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-132.webp",
+    "image_source": "official"
+  },
+  "RAD-136": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-136.webp",
+    "image_source": "official"
+  },
+  "RAD-137": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-137.webp",
+    "image_source": "official"
+  },
+  "RAD-137a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-137a.webp",
+    "image_source": "official"
+  },
+  "RAD-138a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-138a.webp",
+    "image_source": "official"
+  },
+  "RAD-139": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-139.webp",
+    "image_source": "official"
+  },
+  "RAD-140": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-140.webp",
+    "image_source": "official"
+  },
+  "RAD-141": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-141.webp",
+    "image_source": "official"
+  },
+  "RAD-142": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-142.webp",
+    "image_source": "official"
+  },
+  "RAD-143": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-143.webp",
+    "image_source": "official"
+  },
+  "RAD-144": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-144.webp",
+    "image_source": "official"
+  },
+  "RAD-145": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-145.webp",
+    "image_source": "official"
+  },
+  "RAD-147": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-147.webp",
+    "image_source": "official"
+  },
+  "RAD-148": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-148.webp",
+    "image_source": "official"
+  },
+  "RAD-150": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-150.webp",
+    "image_source": "official"
+  },
+  "RAD-151": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-151.webp",
+    "image_source": "official"
+  },
+  "RAD-152": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-152.webp",
+    "image_source": "official"
+  },
+  "RAD-153": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-153.webp",
+    "image_source": "official"
+  },
+  "RAD-155": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-155.webp",
+    "image_source": "official"
+  },
+  "RAD-156": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-156.webp",
+    "image_source": "official"
+  },
+  "RAD-157": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-157.webp",
+    "image_source": "official"
+  },
+  "RAD-158": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-158.webp",
+    "image_source": "official"
+  },
+  "RAD-159": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-159.webp",
+    "image_source": "official"
+  },
+  "RAD-160": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-160.webp",
+    "image_source": "official"
+  },
+  "RAD-161": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-161.webp",
+    "image_source": "official"
+  },
+  "RAD-162": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-162.webp",
+    "image_source": "official"
+  },
+  "RAD-163": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-163.webp",
+    "image_source": "official"
+  },
+  "RAD-164": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-164.webp",
+    "image_source": "official"
+  },
+  "RAD-165": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-165.webp",
+    "image_source": "official"
+  },
+  "RAD-166": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-166.webp",
+    "image_source": "official"
+  },
+  "RAD-167": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-167.webp",
+    "image_source": "official"
+  },
+  "RAD-168": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-168.webp",
+    "image_source": "official"
+  },
+  "RAD-168s": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1790780819472-em758t7h7v.png",
+    "image_source": "temporary"
+  },
+  "RAD-169": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-169.webp",
+    "image_source": "official"
+  },
+  "RAD-169s": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1790464787974-zurkq8ijt1.png",
+    "image_source": "temporary"
+  },
+  "RAD-170": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-170.webp",
+    "image_source": "official"
+  },
+  "RAD-170s": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1790878027612-3kd4kppd5il.png",
+    "image_source": "temporary"
+  },
+  "RAD-171": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-171.webp",
+    "image_source": "official"
+  },
+  "RAD-171s": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1790464754504-lhu47k7gb7c.png",
+    "image_source": "temporary"
+  },
+  "RAD-172": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-172.webp",
+    "image_source": "official"
+  },
+  "RAD-174": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-174.webp",
+    "image_source": "official"
+  },
+  "RAD-174s": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1790468073459-px7vnw6c15.png",
+    "image_source": "temporary"
+  },
+  "RAD-175": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-175.webp",
+    "image_source": "official"
+  },
+  "RAD-176": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-176.webp",
+    "image_source": "official"
+  },
+  "RAD-178": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-178.webp",
+    "image_source": "official"
+  },
+  "RAD-179": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-179.webp",
+    "image_source": "official"
+  },
+  "RAD-180": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-180.webp",
+    "image_source": "official"
+  },
+  "RAD-181": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-181.webp",
+    "image_source": "official"
+  },
+  "RAD-182": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-182.webp",
+    "image_source": "official"
+  },
+  "RAD-183": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-183.webp",
+    "image_source": "official"
+  },
+  "RAD-184": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-184.webp",
+    "image_source": "official"
+  },
+  "RAD-R01a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-R01a.webp",
+    "image_source": "official"
+  },
+  "RAD-R02a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-R02a.webp",
+    "image_source": "official"
+  },
+  "RAD-R03a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-R03a.webp",
+    "image_source": "official"
+  },
+  "RAD-R04a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-R04a.webp",
+    "image_source": "official"
+  },
+  "RAD-R05a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-R05a.webp",
+    "image_source": "official"
+  },
+  "RAD-R06a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-R06a.webp",
+    "image_source": "official"
+  },
+  "RAD-T02": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1790379094995-j8jntogrzbo.png",
+    "image_source": "temporary"
+  },
+  "RAD-005": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-005.webp",
+    "image_source": "official"
+  },
+  "RAD-006": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-006.webp",
+    "image_source": "official"
+  },
+  "RAD-007": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-007.webp",
+    "image_source": "official"
+  },
+  "RAD-008": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-008.webp",
+    "image_source": "official"
+  },
+  "RAD-018": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-018.webp",
+    "image_source": "official"
+  },
+  "RAD-019": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-019.webp",
+    "image_source": "official"
+  },
+  "RAD-020": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-020.webp",
+    "image_source": "official"
+  },
+  "RAD-020a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-020a.webp",
+    "image_source": "official"
+  },
+  "RAD-021": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-021.webp",
+    "image_source": "official"
+  },
+  "RAD-021a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-021a.webp",
+    "image_source": "official"
+  },
+  "RAD-028": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-028.webp",
+    "image_source": "official"
+  },
+  "RAD-039": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-039.webp",
+    "image_source": "official"
+  },
+  "RAD-040": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-040.webp",
+    "image_source": "official"
+  },
+  "RAD-043": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-043.webp",
+    "image_source": "official"
+  },
+  "RAD-043a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-043a.webp",
+    "image_source": "official"
+  },
+  "RAD-049": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-049.webp",
+    "image_source": "official"
+  },
+  "RAD-050": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-050.webp",
+    "image_source": "official"
+  },
+  "RAD-051": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-051.webp",
+    "image_source": "official"
+  },
+  "RAD-060": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-060.webp",
+    "image_source": "official"
+  },
+  "RAD-062": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-062.webp",
+    "image_source": "official"
+  },
+  "RAD-074": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-074.webp",
+    "image_source": "official"
+  },
+  "RAD-075": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-075.webp",
+    "image_source": "official"
+  },
+  "RAD-088": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-088.webp",
+    "image_source": "official"
+  },
+  "RAD-089": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-089.webp",
+    "image_source": "official"
+  },
+  "RAD-099": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-099.webp",
+    "image_source": "official"
+  },
+  "RAD-100": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-100.webp",
+    "image_source": "official"
+  },
+  "RAD-101": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-101.webp",
+    "image_source": "official"
+  },
+  "RAD-111": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-111.webp",
+    "image_source": "official"
+  },
+  "RAD-112": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-112.webp",
+    "image_source": "official"
+  },
+  "RAD-112a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-112a.webp",
+    "image_source": "official"
+  },
+  "RAD-114": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-114.webp",
+    "image_source": "official"
+  },
+  "RAD-114a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-114a.webp",
+    "image_source": "official"
+  },
+  "RAD-120": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-120.webp",
+    "image_source": "official"
+  },
+  "RAD-122": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-122.webp",
+    "image_source": "official"
+  },
+  "RAD-131": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-131.webp",
+    "image_source": "official"
+  },
+  "RAD-146": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-146.webp",
+    "image_source": "official"
+  },
+  "RAD-154": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-154.webp",
+    "image_source": "official"
+  },
+  "RAD-009": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-009.webp",
+    "image_source": "official"
+  },
+  "RAD-010": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-010.webp",
+    "image_source": "official"
+  },
+  "RAD-029": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-029.webp",
+    "image_source": "official"
+  },
+  "RAD-030": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-030.webp",
+    "image_source": "official"
+  },
+  "RAD-031": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-031.webp",
+    "image_source": "official"
+  },
+  "RAD-041": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-041.webp",
+    "image_source": "official"
+  },
+  "RAD-042": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-042.webp",
+    "image_source": "official"
+  },
+  "RAD-042a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-042a.webp",
+    "image_source": "official"
+  },
+  "RAD-052": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-052.webp",
+    "image_source": "official"
+  },
+  "RAD-064": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-064.webp",
+    "image_source": "official"
+  },
+  "RAD-065a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-065a.webp",
+    "image_source": "official"
+  },
+  "RAD-076": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-076.webp",
+    "image_source": "official"
+  },
+  "RAD-077": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-077.webp",
+    "image_source": "official"
+  },
+  "RAD-092": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-092.webp",
+    "image_source": "official"
+  },
+  "RAD-102": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-102.webp",
+    "image_source": "official"
+  },
+  "RAD-103": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-103.webp",
+    "image_source": "official"
+  },
+  "RAD-108": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-108.webp",
+    "image_source": "official"
+  },
+  "RAD-113": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-113.webp",
+    "image_source": "official"
+  },
+  "RAD-121": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-121.webp",
+    "image_source": "official"
+  },
+  "RAD-133": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-133.webp",
+    "image_source": "official"
+  },
+  "RAD-133a": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-133a.webp",
+    "image_source": "official"
+  },
+  "RAD-134": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-134.webp",
+    "image_source": "official"
+  },
+  "RAD-173": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-173.webp",
+    "image_source": "official"
+  },
+  "RAD-053": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-053.webp",
+    "image_source": "official"
+  },
+  "RAD-054": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1791545467178-38suok1h2zd.png",
+    "image_source": "temporary"
+  },
+  "RAD-065": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-065.webp",
+    "image_source": "official"
+  },
+  "RAD-066": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1791597831855-togpgq64949.webp",
+    "image_source": "temporary"
+  },
+  "RAD-078": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-078.webp",
+    "image_source": "official"
+  },
+  "RAD-080": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1791597706495-9o06ruyxm38.jpg",
+    "image_source": "temporary"
+  },
+  "RAD-123": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-123.webp",
+    "image_source": "official"
+  },
+  "RAD-124": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1791597623574-c2b4sg8s4sl.webp",
+    "image_source": "temporary"
+  },
+  "RAD-135": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1791720452777-xcftbv6j42f.webp",
+    "image_source": "temporary"
+  },
+  "RAD-149": {
+    "image_url": "https://cdn.piltoverarchive.com/cards/RAD-149.webp",
+    "image_source": "official"
+  },
+  "RAD-177": {
+    "image_url": "https://cdn.piltoverarchive.com/temporary/1791720697892-ez2e0lxqd9l.png",
+    "image_source": "temporary"
+  },
+  "RAD-011": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-011-167.webp?v=1791523291",
+    "image_source": "temporary"
+  },
+  "RAD-022": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-022-167.webp?v=1791523290",
+    "image_source": "temporary"
+  },
+  "RAD-032": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-032-167.webp?v=1791595202",
+    "image_source": "temporary"
+  },
+  "RAD-044": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-044-167.webp?v=1791612964",
+    "image_source": "temporary"
+  },
+  "RAD-094": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-094-167.webp?v=1791595202",
+    "image_source": "temporary"
+  },
+  "RAD-104": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-104-167.webp?v=1791595202",
+    "image_source": "temporary"
+  },
+  "RAD-174as": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-174-star-167.webp?v=1791631736",
+    "image_source": "temporary"
+  },
+  "RAD-R01": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-r01.webp?v=1791591669",
+    "image_source": "official"
+  },
+  "RAD-R02": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-r02.webp?v=1791246998",
+    "image_source": "official"
+  },
+  "RAD-R03": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-r03.webp?v=1791333414",
+    "image_source": "official"
+  },
+  "RAD-R04": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-r04.webp?v=1791419444",
+    "image_source": "official"
+  },
+  "RAD-R05": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-r05.webp?v=1791507603",
+    "image_source": "official"
+  },
+  "RAD-R06": {
+    "image_url": "https://riftbound.org/storage/cards/rad/rad-r06.webp?v=1791591669",
     "image_source": "official"
   }
 }

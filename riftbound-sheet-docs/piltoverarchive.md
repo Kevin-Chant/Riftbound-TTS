@@ -69,6 +69,20 @@ python3 riftbound-sheet-docs/piltover_spoilers_to_sheet.py --set VEN --download-
 
 Repeat the same with `UNL` or `RAD` as needed.
 
+Piltover's current React payload contains `variants` arrays with `variantNumber`,
+`rarity`, `imageUrl`, `flavorText`, `artist`, and a nested `card` object.
+The importer reads these directly, including all paginated results; the older
+rendered-component parser remains a fallback. Domains use `|`; absent might and
+power remain blank. Existing card-ID filters still exclude unsupported promos.
+
+For RAD, Riftbound.org fills IDs absent from Piltover. Read the JSON in
+`<script data-page="app" type="application/json">` on
+`https://riftbound.org/cards/rad-radiance`, following `props.cards.links.next`.
+`props.cards.data` contains stats, HTML rules, artist, and image URLs. Preview
+rarity becomes `Unknown`; preview images are `temporary`. Piltover wins when
+both sources contain an ID. RAD supports basic runes and signed alt-art IDs
+(`174a*` becomes `174as`); SP promos remain excluded.
+
 ## Sheet Behavior
 
 `--append-sheet` is an upsert keyed by `card-id`.
@@ -159,6 +173,26 @@ If the scrape looks wrong:
 3. only hardcode a workaround when needed for active work
 
 ## Current Status Notes
+
+### RAD name audit (2026-10-12)
+
+Compared imported RAD names with Riot's English card-gallery data at
+https://playriftbound.com/en-us/card-gallery/ and checked local card-image text.
+Keep the established TTS `Champion, Legend Title` naming convention for legends;
+the gallery's title-only legend names are not import errors.
+
+Persistent overrides in `CARD_OVERRIDES` correct:
+
+- `RAD-011`: `Incorrigible Construct` (user correction; available preview image
+  is Chinese, so the English name was not independently confirmed).
+- `RAD-109`, `RAD-109a`: `Evelynn, In Control` (official capitalization).
+- `RAD-114`, `RAD-114a`: `Riven, Deserter` (missing comma).
+- `RAD-163`: `Hunters' Circle` (plural possessive).
+
+The English images confirm `Strigian Oracle` (`RAD-053`), `Armored Tusker`
+(`RAD-078`), and `Protector's Shield` (`RAD-123`), despite conflicting
+Riftbound.org names. Retain those printed English names. Chinese-only preview
+names remain provisional until English art or official records become available.
 
 - `RAD` is still sparse on Piltover; only scrape what is actually indexed there
 - `VEN` is actively expanding; reruns can legitimately append more rows
